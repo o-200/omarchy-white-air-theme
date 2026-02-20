@@ -8,35 +8,35 @@ return {
             transparent = false,
             colors = {
                 -- Background colors
-                bg = "#ffffff",
-                bg_dark = "#ffffff",
+                bg = "#1e1e2e",
+                bg_dark = "#1e1e2e",
                 bg_highlight = "#45475a",
 
                 -- Foreground colors
                 -- fg: Object properties, builtin types, builtin variables, member access, default text
-                fg = "#3d3846",
+                fg = "#ffffff",
                 -- fg_dark: Inactive elements, statusline, secondary text
-                fg_dark = "#3584e4",
+                fg_dark = "#cdd6f4",
                 -- comment: Line highlight, gutter elements, disabled states
                 comment = "#45475a",
 
                 -- Accent colors
                 -- red: Errors, diagnostics, tags, deletions, breakpoints
-                red = "#1a5fb4",
+                red = "#f38ba8",
                 -- orange: Constants, numbers, current line number, git modifications
-                orange = "#1a5fb4",
+                orange = "#f38ba8",
                 -- yellow: Types, classes, constructors, warnings, numbers, booleans
-                yellow = "#e5a50a",
+                yellow = "#f9e2af",
                 -- green: Comments, strings, success states, git additions
-                green = "#2ec27e",
+                green = "#a6e3a1",
                 -- cyan: Parameters, regex, preprocessor, hints, properties
                 cyan = "#94e2d5",
                 -- blue: Functions, keywords, directories, links, info diagnostics
                 blue = "#89b4fa",
                 -- purple: Storage keywords, special keywords, identifiers, namespaces
-                purple = "#1c71d8",
+                purple = "#cba6f7",
                 -- magenta: Function declarations, exception handling, tags
-                magenta = "#1c71d8",
+                magenta = "#cba6f7",
             },
         },
         config = function(_, opts)

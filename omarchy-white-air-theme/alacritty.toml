@@ -1,10 +1,10 @@
 [colors]
 [colors.primary]
-background = "#ffffff"
-foreground = "#121212"
+background = "#1e1e2e"
+foreground = "#ffffff"
 
 [colors.normal]
-black   = "#ffffff"
+black   = "#1e1e2e"
 red     = "#f38ba8"
 green   = "#a6e3a1"
 yellow  = "#f9e2af"
@@ -21,8 +21,8 @@ yellow  = "#f9e2af"
 blue    = "#89b4fa"
 magenta = "#cba6f7"
 cyan    = "#94e2d5"
-white   = "#121212"
+white   = "#ffffff"
 
 [colors.cursor]
-text   = "#ffffff"
-cursor = "#121212"
+text   = "#1e1e2e"
+cursor = "#ffffff"

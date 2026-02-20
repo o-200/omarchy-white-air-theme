@@ -4,18 +4,18 @@ active_border_color = "#89b4fa"
 active_tab_background = "#89b4fa"
 
 # Cursor colors
-cursor = "#121212"
+cursor = "#ffffff"
 
 # Primary colors
-foreground = "#121212"
-background = "#ffffff"
+foreground = "#ffffff"
+background = "#1e1e2e"
 
 # Selection colors
-selection_foreground = "#ffffff"
+selection_foreground = "#1e1e2e"
 selection_background = "#89b4fa"
 
 # Normal colors (ANSI 0-7)
-color0 = "#ffffff"
+color0 = "#1e1e2e"
 color1 = "#f38ba8"
 color2 = "#a6e3a1"
 color3 = "#f9e2af"
@@ -32,4 +32,4 @@ color11 = "#f9e2af"
 color12 = "#89b4fa"
 color13 = "#cba6f7"
 color14 = "#94e2d5"
-color15 = "#121212"
+color15 = "#ffffff"
