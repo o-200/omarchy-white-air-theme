@@ -7,36 +7,22 @@ return {
         opts = {
             transparent = false,
             colors = {
-                -- Background colors
-                bg = "#ffffff",
-                bg_dark = "#ffffff",
-                bg_highlight = "#45475a",
-
-                -- Foreground colors
-                -- fg: Object properties, builtin types, builtin variables, member access, default text
-                fg = "#3d3846",
-                -- fg_dark: Inactive elements, statusline, secondary text
-                fg_dark = "#3584e4",
-                -- comment: Line highlight, gutter elements, disabled states
-                comment = "#45475a",
-
-                -- Accent colors
-                -- red: Errors, diagnostics, tags, deletions, breakpoints
-                red = "#1a5fb4",
-                -- orange: Constants, numbers, current line number, git modifications
-                orange = "#1a5fb4",
-                -- yellow: Types, classes, constructors, warnings, numbers, booleans
-                yellow = "#e5a50a",
-                -- green: Comments, strings, success states, git additions
-                green = "#2ec27e",
-                -- cyan: Parameters, regex, preprocessor, hints, properties
-                cyan = "#94e2d5",
-                -- blue: Functions, keywords, directories, links, info diagnostics
-                blue = "#89b4fa",
-                -- purple: Storage keywords, special keywords, identifiers, namespaces
-                purple = "#1c71d8",
-                -- magenta: Function declarations, exception handling, tags
-                magenta = "#1c71d8",
+                base00 = "#ffffff",        -- Background
+                base01 = "#ffffff",        -- Lighter background
+                base02 = "#6effe9",        -- Selection background
+                base03 = "#B9D3FC",        -- Comments
+                base04 = "#0a64f5",        -- Dark foreground
+                base05 = "#3584e4",        -- Default foreground
+                base06 = "#030303",        -- Light foreground
+                base07 = "#f8f8f8",        -- Light background
+                base08 = "#1a5fb4",        -- Red variables, errors
+                base09 = "#0a64f5",        -- numbers, constants
+                base0A = "#5090f8",        -- classes, types, parameters
+                base0B = "#0a64f5",        -- strings, methods
+                base0C = "#003d9f",        -- regex, escapes
+                base0D = "#66d9ef",        -- functions, keywords
+                base0E = "#004bc4",        -- keywords, tags
+                base0F = "#cc6633",        -- deprecated things
             },
         },
         config = function(_, opts)
