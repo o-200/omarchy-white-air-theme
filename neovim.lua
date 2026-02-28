@@ -9,20 +9,20 @@ return {
             colors = {
                 base00 = "#ffffff",        -- Background
                 base01 = "#ffffff",        -- Lighter background
-                base02 = "#6effe9",        -- Selection background
-                base03 = "#B9D3FC",        -- Comments
+                base02 = "#77dde7",        -- Selection background
+                base03 = "#afdafc",        -- Comments
                 base04 = "#0a64f5",        -- Dark foreground
-                base05 = "#3584e4",        -- Default foreground
+                base05 = "#3b83bd",        -- Default foreground
                 base06 = "#030303",        -- Light foreground
-                base07 = "#f8f8f8",        -- Light background
-                base08 = "#1a5fb4",        -- Red variables, errors
+                base07 = "#f8f8ff",        -- Light background
+                base08 = "#1560bd",        -- Red variables, errors
                 base09 = "#0a64f5",        -- numbers, constants
-                base0A = "#5090f8",        -- classes, types, parameters
+                base0A = "#6495ed",        -- classes, types, parameters
                 base0B = "#0a64f5",        -- strings, methods
-                base0C = "#003d9f",        -- regex, escapes
-                base0D = "#66d9ef",        -- functions, keywords
-                base0E = "#004bc4",        -- keywords, tags
-                base0F = "#cc6633",        -- deprecated things
+                base0C = "#151719",        -- regex, escapes
+                base0D = "#3b83bd",        -- functions, keywords
+                base0E = "#0047ab",        -- keywords, tags
+                base0F = "#b87333",        -- deprecated things
             },
         },
         config = function(_, opts)
