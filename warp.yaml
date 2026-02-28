@@ -1,26 +1,28 @@
 name: Omarchy
-accent: "#0a64f5"
-cursor: "#121212"
-background: "#ffffff"
-foreground: "#121212"
-details: darker
+accent: "#0a64f5"        # base04/base09
+cursor: "#151719"        # base0C
+
+background: "#ffffff"    # base00
+foreground: "#3b83bd"    # base05
+details: lighter
 
 terminal_colors:
   normal:
-    black:   "#ffffff"
-    red:     "#e71852"
-    green:   "#45c43b"
-    yellow:  "#eda912"
-    blue:    "#0a64f5"
-    magenta: "#0a64f5"
-    cyan:    "#008aff"
-    white:   "#889de5"
+    black:   "#afdafc"   # base03
+    red:     "#1560bd"   # base08
+    green:   "#0a64f5"   # base0B
+    yellow:  "#6495ed"   # base0A
+    blue:    "#3b83bd"   # base0D
+    magenta: "#0047ab"   # base0E
+    cyan:    "#151719"   # base0C
+    white:   "#030303"   # base06
+
   bright:
-    black:   "#45475a"
-    red:     "#ff000a"
-    green:   "#318c2a"
-    yellow:  "#edc612"
-    blue:    "#5796cc"
-    magenta: "#5090f8"
-    cyan:    "#008aff"
-    white:   "#121212"
+    black:   "#afdafc"   # base03
+    red:     "#1560bd"   # base08
+    green:   "#0a64f5"   # base0B
+    yellow:  "#6495ed"   # base0A
+    blue:    "#0a64f5"   # base09
+    magenta: "#0047ab"   # base0E
+    cyan:    "#151719"   # base0C
+    white:   "#f8f8ff"   # base07

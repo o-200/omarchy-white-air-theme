@@ -20,7 +20,7 @@ return {
                 base0A = "#5090f8",        -- classes, types, parameters
                 base0B = "#0a64f5",        -- strings, methods
                 base0C = "#003d9f",        -- regex, escapes
-                base0D = "#66d9ef",        -- functions, keywords
+                base0D = "#0a64f5",        -- functions, keywords
                 base0E = "#004bc4",        -- keywords, tags
                 base0F = "#cc6633",        -- deprecated things
             },
