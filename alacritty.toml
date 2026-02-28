@@ -1,7 +1,7 @@
 [colors]
 [colors.primary]
 background = "#ffffff"   # base00
-foreground = "#3b83bd"   # base05
+foreground = "#0a64f5"   # base05
 
 [colors.cursor]
 text = "#ffffff"
