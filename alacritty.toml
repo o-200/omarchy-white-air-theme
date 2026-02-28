@@ -5,28 +5,28 @@ foreground = "#3b83bd"   # base05
 
 [colors.cursor]
 text = "#ffffff"
-cursor = "#0a64f5"       # base04/base09
+cursor = "#45475a"       # base04/base09
 
 [colors.selection]
-text = "#030303"         # base06
-background = "#77dde7"   # base02
+text = "#0a64f5"         # base06
+background = "#afdafc"   # base02
 
 [colors.normal]
-black   = "#afdafc"      # base03 (comments)
-red     = "#1560bd"      # base08
-green   = "#0a64f5"      # base0B
-yellow  = "#6495ed"      # base0A
-blue    = "#3b83bd"      # base0D
-magenta = "#0047ab"      # base0E
-cyan    = "#151719"      # base0C
-white   = "#030303"      # base06
+black   = "#45475a"      # base03 (comments)
+red     = "#e71852"      # base08
+green   = "#45c43b"      # base0B
+yellow  = "#eda912"      # base0A
+blue    = "#0a64f5"      # base0D
+magenta = "#0a64f5"      # base0E
+cyan    = "#008aff"      # base0C
+white   = "#080809"      # base06
 
 [colors.bright]
-black   = "#afdafc"
-red     = "#1560bd"
-green   = "#0a64f5"
-yellow  = "#6495ed"
+black   = "#45475a"
+red     = "#ff000a"
+green   = "#318c2a"
+yellow  = "#edc612"
 blue    = "#0a64f5"
 magenta = "#0047ab"
-cyan    = "#151719"
-white   = "#f8f8ff"      # base07
+cyan    = "#008aff"
+white   = "#121212"
