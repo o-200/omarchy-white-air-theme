@@ -1,32 +1,32 @@
 [colors]
 [colors.primary]
-background = "#ffffff"   # base00
-foreground = "#3584e4"   # base05
+background = "#ffffff"
+foreground = "#3b83bd"
 
 [colors.cursor]
 text = "#ffffff"
-cursor = "#B9D3FC"       # base04/base09
+cursor = "#151719"
 
 [colors.selection]
-text = "#030303"         # base06
-background = "#6effe9"   # base02
+text = "#030303"
+background = "#77dde7"
 
 [colors.normal]
-black   = "#B9D3FC"      # base03 (comments)
-red     = "#1a5fb4"      # base08
-green   = "#B9D3FC"      # base0B
-yellow  = "#5090f8"      # base0A
-blue    = "#3b83bd"      # base0D
-magenta = "#0047ab"      # base0E
-cyan    = "#003d9f"      # base0C
-white   = "#030303"      # base06
-
-[colors.bright]
-black   = "#B9D3FC"
-red     = "#1a5fb4"
-green   = "#B9D3FC"
-yellow  = "#5090f8"
+black   = "#afdafc"
+red     = "#1560bd"
+green   = "#0a64f5"
+yellow  = "#6495ed"
 blue    = "#3b83bd"
 magenta = "#0047ab"
-cyan    = "#003d9f"
-white   = "#f8f8f8"      # base07
+cyan    = "#151719"
+white   = "#030303"
+
+[colors.bright]
+black   = "#afdafc"
+red     = "#1560bd"
+green   = "#0a64f5"
+yellow  = "#6495ed"
+blue    = "#0a64f5"
+magenta = "#0047ab"
+cyan    = "#151719"
+white   = "#f8f8ff"

@@ -1,30 +1,27 @@
 /**
- * Aether Theme with Sharp Corners (Hyprland-inspired)
- * GTK4/Adwaita Custom Styling
+ * White Air Theme for GTK
  */
 
-/* Dynamic color palette from Aether */
 @define-color background #ffffff;
-@define-color foreground #121212;
+@define-color foreground #3b83bd;
 
 @define-color black #ffffff;
-@define-color red #f38ba8;
-@define-color green #a6e3a1;
-@define-color yellow #f9e2af;
-@define-color blue #89b4fa;
-@define-color magenta #cba6f7;
-@define-color cyan #94e2d5;
-@define-color white #cdd6f4;
+@define-color red #1560bd;
+@define-color green #0a64f5;
+@define-color yellow #6495ed;
+@define-color blue #0a64f5;
+@define-color magenta #0047ab;
+@define-color cyan #77dde7;
+@define-color white #afdafc;
 @define-color bright_black #45475a;
-@define-color bright_red #f38ba8;
-@define-color bright_green #a6e3a1;
-@define-color bright_yellow #f9e2af;
-@define-color bright_blue #89b4fa;
-@define-color bright_magenta #cba6f7;
-@define-color bright_cyan #94e2d5;
-@define-color bright_white #121212;
+@define-color bright_red #1560bd;
+@define-color bright_green #0a64f5;
+@define-color bright_yellow #6495ed;
+@define-color bright_blue #0a64f5;
+@define-color bright_magenta #0047ab;
+@define-color bright_cyan #77dde7;
+@define-color bright_white #030303;
 
-/* Adwaita Color Overrides */
 @define-color accent_bg_color @blue;
 @define-color accent_fg_color @background;
 @define-color accent_color @cyan;
@@ -32,7 +29,6 @@
 @define-color window_bg_color @background;
 @define-color window_fg_color @foreground;
 
-/* Sidebar background and content */
 @define-color view_bg_color @black;
 @define-color view_fg_color @foreground;
 @define-color sidebar_bg_color @black;
@@ -67,7 +63,6 @@
 
 @define-color borders alpha(@foreground, 0.1);
 
-/* GTK3 Adwaita Legacy Color Variables */
 @define-color theme_fg_color @foreground;
 @define-color theme_text_color @foreground;
 @define-color theme_bg_color @background;
@@ -90,30 +85,24 @@
 @define-color success_color @green;
 @define-color destructive_color @red;
 
-/* Content View Colors */
 @define-color content_view_bg @black;
 @define-color text_view_bg @black;
 
-/* GtkMessageDialog styling */
-/* Target the entire dialog's background */
 messagedialog {
     background-color: @dialog_bg_color;
 }
 
-/* Target the main message label inside the dialog */
 messagedialog label {
     color: @dialog_fg_color;
     font-size: 14pt;
     font-weight: bold;
 }
 
-/* Target the secondary, more detailed text (if any) */
 messagedialog .secondary-text {
     font-size: 10pt;
     font-style: italic;
 }
 
-/* Target the buttons in the dialog's action area */
 messagedialog button {
     background-color: @black;
     color: @foreground;
@@ -131,7 +120,6 @@ banner revealer widget {
     color: @foreground;
 }
 
-/* GtkAlertDialog styling */
 alertdialog.background {
     background-color: @dialog_bg_color;
     color: @dialog_fg_color;
@@ -177,8 +165,6 @@ toast button.circular.flat.image-button:hover {
     background-color: @red;
 }
 
-/* Sharp corners, Hyprland-inspired */
 * {
     border-radius: 0;
 }
-
