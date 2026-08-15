@@ -1,47 +1,42 @@
 @define-color bg #ffffff;
-/* base00 */
-@define-color fg #3b83bd;
-/* base05 */
+@define-color fg #1e293b;
 
-@define-color gray1 #77dde7;
-/* base02 (selection) */
-@define-color gray2 #afdafc;
-/* base03 (borders) */
-@define-color gray3 #0a64f5;
-/* base04/base09 (accent) */
-@define-color gray4 #6495ed;
-/* base0A */
-@define-color gray5 #0047ab;
-/* base0E */
-
-@define-color fg_bright #030303;
-/* base06 */
+@define-color selection #cbd5e1;
+@define-color border #0a64f5;
+@define-color accent #0a64f5;
+@define-color muted #94a3b8;
+@define-color fg_bright #0f172a;
 
 window {
     background-color: @bg;
-    border: 2px solid @gray3;
+    border: 2px solid @border;
+    border-radius: 10px;
 }
 
 input {
-    background-color: @bg;
+    background-color: #f8fafc;
     color: @fg;
-    border: 1px solid @gray2;
+    border: 1px solid @selection;
+    border-radius: 6px;
+    padding: 8px;
+    margin: 6px;
 }
 
 input:selected {
-    background-color: @gray1;
+    background-color: @selection;
     color: @fg_bright;
 }
 
 #entry {
     color: @fg;
     background-color: @bg;
-    padding: 5px;
-    margin: 2px;
+    padding: 6px 12px;
+    margin: 2px 4px;
+    border-radius: 6px;
 }
 
 #entry:selected {
-    background-color: @gray1;
+    background-color: @selection;
     color: @fg_bright;
 }
 
@@ -50,10 +45,10 @@ scrollbar {
 }
 
 scrollbar slider {
-    background-color: @gray2;
-    border-radius: 5px;
+    background-color: @selection;
+    border-radius: 6px;
 }
 
 scrollbar slider:hover {
-    background-color: @gray3;
+    background-color: @accent;
 }

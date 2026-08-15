@@ -1,7 +1,7 @@
-@define-color background-color #ffffff;  /* base00 */
-@define-color border-color #afdafc;      /* base03 */
+@define-color background-color #ffffff;
+@define-color border-color #cbd5e1;
 
-@define-color label #3b83bd;             /* base05 */
-@define-color image #151719;             /* base0C */
+@define-color label #1e293b;
+@define-color image #0a64f5;
 
-@define-color progress #0a64f5;          /* base04/base09 */
+@define-color progress #0a64f5;

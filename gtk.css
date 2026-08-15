@@ -1,92 +1,92 @@
 /**
- * White Air Theme for GTK
+ * White Air Theme for GTK (Omarchy 4.0.0)
  */
 
 @define-color background #ffffff;
-@define-color foreground #3b83bd;
+@define-color foreground #1e293b;
 
-@define-color black #ffffff;
-@define-color red #1560bd;
-@define-color green #0a64f5;
-@define-color yellow #6495ed;
+@define-color black #f1f5f9;
+@define-color red #e11d48;
+@define-color green #059669;
+@define-color yellow #d97706;
 @define-color blue #0a64f5;
-@define-color magenta #0047ab;
-@define-color cyan #77dde7;
-@define-color white #afdafc;
-@define-color bright_black #45475a;
-@define-color bright_red #1560bd;
-@define-color bright_green #0a64f5;
-@define-color bright_yellow #6495ed;
-@define-color bright_blue #0a64f5;
-@define-color bright_magenta #0047ab;
-@define-color bright_cyan #77dde7;
-@define-color bright_white #030303;
+@define-color magenta #7c3aed;
+@define-color cyan #0284c7;
+@define-color white #cbd5e1;
+@define-color bright_black #94a3b8;
+@define-color bright_red #f43f5e;
+@define-color bright_green #10b981;
+@define-color bright_yellow #f59e0b;
+@define-color bright_blue #2563eb;
+@define-color bright_magenta #8b5cf6;
+@define-color bright_cyan #06b6d4;
+@define-color bright_white #0f172a;
 
 @define-color accent_bg_color @blue;
-@define-color accent_fg_color @background;
-@define-color accent_color @cyan;
+@define-color accent_fg_color #ffffff;
+@define-color accent_color @blue;
 
 @define-color window_bg_color @background;
 @define-color window_fg_color @foreground;
 
-@define-color view_bg_color @black;
+@define-color view_bg_color @background;
 @define-color view_fg_color @foreground;
-@define-color sidebar_bg_color @black;
+@define-color sidebar_bg_color #f8fafc;
 @define-color sidebar_fg_color @foreground;
-@define-color sidebar_backdrop_color @black;
-@define-color sidebar_shade_color @black;
+@define-color sidebar_backdrop_color @background;
+@define-color sidebar_shade_color @background;
 
-@define-color headerbar_bg_color alpha(@foreground, 0.1);
+@define-color headerbar_bg_color #f1f5f9;
 @define-color headerbar_fg_color @foreground;
-@define-color headerbar_backdrop_color @black;
-@define-color headerbar_shade_color @black;
-@define-color card_bg_color alpha(@foreground, 0.1);
+@define-color headerbar_backdrop_color @background;
+@define-color headerbar_shade_color @background;
+@define-color card_bg_color #f8fafc;
 @define-color card_fg_color @foreground;
 
-@define-color popover_bg_color @black;
+@define-color popover_bg_color @background;
 @define-color popover_fg_color @foreground;
 
 @define-color destructive_bg_color @red;
-@define-color destructive_fg_color @background;
+@define-color destructive_fg_color #ffffff;
 
 @define-color success_bg_color @green;
-@define-color success_fg_color @background;
+@define-color success_fg_color #ffffff;
 
 @define-color warning_bg_color @yellow;
-@define-color warning_fg_color @background;
+@define-color warning_fg_color #ffffff;
 
 @define-color error_bg_color @red;
-@define-color error_fg_color @background;
+@define-color error_fg_color #ffffff;
 
 @define-color dialog_bg_color @background;
 @define-color dialog_fg_color @foreground;
 
-@define-color borders alpha(@foreground, 0.1);
+@define-color borders #cbd5e1;
 
 @define-color theme_fg_color @foreground;
 @define-color theme_text_color @foreground;
 @define-color theme_bg_color @background;
-@define-color theme_base_color @black;
+@define-color theme_base_color @background;
 @define-color theme_selected_bg_color @blue;
-@define-color theme_selected_fg_color @background;
+@define-color theme_selected_fg_color #ffffff;
 @define-color insensitive_bg_color @background;
 @define-color insensitive_fg_color @bright_black;
-@define-color insensitive_base_color @black;
+@define-color insensitive_base_color @background;
 @define-color theme_unfocused_fg_color @foreground;
 @define-color theme_unfocused_text_color @foreground;
 @define-color theme_unfocused_bg_color @background;
-@define-color theme_unfocused_base_color @black;
+@define-color theme_unfocused_base_color @background;
 @define-color theme_unfocused_selected_bg_color @blue;
-@define-color theme_unfocused_selected_fg_color @background;
+@define-color theme_unfocused_selected_fg_color #ffffff;
 @define-color unfocused_insensitive_color @bright_black;
-@define-color unfocused_borders alpha(@foreground, 0.1);
+@define-color unfocused_borders #cbd5e1;
 @define-color warning_color @yellow;
 @define-color error_color @red;
 @define-color success_color @green;
 @define-color destructive_color @red;
 
-@define-color content_view_bg @black;
-@define-color text_view_bg @black;
+@define-color content_view_bg @background;
+@define-color text_view_bg @background;
 
 messagedialog {
     background-color: @dialog_bg_color;
@@ -104,18 +104,20 @@ messagedialog .secondary-text {
 }
 
 messagedialog button {
-    background-color: @black;
+    background-color: #f8fafc;
     color: @foreground;
-    border: 1px solid @bright_black;
+    border: 1px solid #cbd5e1;
     padding: 10px;
+    border-radius: 6px;
 }
 
 messagedialog button:hover {
     background-color: @blue;
+    color: #ffffff;
 }
 
 banner revealer widget {
-    background: @bright_black;
+    background: #f1f5f9;
     padding: 5px;
     color: @foreground;
 }
@@ -139,15 +141,15 @@ alertdialog label {
 }
 
 filechooser .dialog-action-box {
-    border-top: 1px solid @bright_black;
+    border-top: 1px solid #cbd5e1;
 }
 
 filechooser .dialog-action-box:backdrop {
-    border-top-color: @black;
+    border-top-color: #f1f5f9;
 }
 
 filechooser #pathbarbox {
-    border-bottom: 1px solid @bright_black;
+    border-bottom: 1px solid #cbd5e1;
 }
 
 filechooserbutton:drop(active) {
@@ -156,15 +158,13 @@ filechooserbutton:drop(active) {
 }
 
 toast {
-    background-color: @black;
+    background-color: #f8fafc;
     color: @foreground;
+    border: 1px solid #cbd5e1;
+    border-radius: 8px;
 }
 
 toast button.circular.flat.image-button:hover {
-    color: @background;
+    color: #ffffff;
     background-color: @red;
-}
-
-* {
-    border-radius: 0;
 }

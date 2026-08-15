@@ -1,64 +1,64 @@
-# btop theme from your Neovim palette (light/blue)
+# White Air theme for btop (Omarchy 4.0.0)
 
 # Main UI
-theme[main_bg]="#ffffff"         # base00
-theme[main_fg]="#3b83bd"         # base05
-theme[title]="#0a64f5"           # base04/base09
-theme[hi_fg]="#0a64f5"           # base04/base09
-theme[selected_bg]="#77dde7"     # base02
-theme[selected_fg]="#030303"     # base06
-theme[inactive_fg]="#afdafc"     # base03
-theme[graph_text]="#151719"      # base0C
-theme[meter_bg]="#f8f8ff"        # base07
-theme[proc_misc]="#6495ed"       # base0A
+theme[main_bg]="#ffffff"
+theme[main_fg]="#1e293b"
+theme[title]="#0a64f5"
+theme[hi_fg]="#0a64f5"
+theme[selected_bg]="#cbd5e1"
+theme[selected_fg]="#0f172a"
+theme[inactive_fg]="#94a3b8"
+theme[graph_text]="#64748b"
+theme[meter_bg]="#f1f5f9"
+theme[proc_misc]="#7c3aed"
 
 # CPU
-theme[cpu_box]="#3b83bd"         # base0D
-theme[cpu_core]="#0a64f5"        # base0B
-theme[cpu_temp]="#b87333"        # base0F
-theme[cpu_low]="#77dde7"         # base02
-theme[cpu_medium]="#6495ed"      # base0A
-theme[cpu_high]="#1560bd"        # base08
+theme[cpu_box]="#0a64f5"
+theme[cpu_core]="#0a64f5"
+theme[cpu_temp]="#ea580c"
+theme[cpu_low]="#059669"
+theme[cpu_medium]="#d97706"
+theme[cpu_high]="#e11d48"
 
 # Memory / Swap
-theme[mem_box]="#3b83bd"         # base0D
-theme[mem]="#0a64f5"             # base0B
-theme[swap]="#0047ab"            # base0E
+theme[mem_box]="#0a64f5"
+theme[mem]="#059669"
+theme[swap]="#7c3aed"
 
 # Network
-theme[net_box]="#3b83bd"         # base0D
-theme[net_download]="#0a64f5"    # base0B
-theme[net_upload]="#1560bd"      # base08
+theme[net_box]="#0a64f5"
+theme[net_download]="#059669"
+theme[net_upload]="#e11d48"
 
 # Processes / Boxes
-theme[proc_box]="#3b83bd"        # base0D
-theme[proc_high]="#1560bd"       # base08
-theme[proc_medium]="#0047ab"     # base0E
-theme[proc_low]="#6495ed"        # base0A
-theme[proc_name]="#0a64f5"       # base04/base09
+theme[proc_box]="#0a64f5"
+theme[proc_high]="#e11d48"
+theme[proc_medium]="#7c3aed"
+theme[proc_low]="#059669"
+theme[proc_name]="#0a64f5"
 
 # Borders and dividers
-theme[div_line]="#afdafc"        # base03
-theme[box_bg]="#ffffff"          # base00
-theme[box_fg]="#151719"          # base0C
+theme[div_line]="#cbd5e1"
+theme[box_bg]="#ffffff"
+theme[box_fg]="#1e293b"
 
 # Cursor / selection
-theme[cursor]="#151719"          # base0C
+theme[cursor]="#0a64f5"
 
-# ANSI colors 0-15 (match your Alacritty mapping)
-theme[color0]="#afdafc"          # normal black
-theme[color1]="#1560bd"          # normal red
-theme[color2]="#0a64f5"          # normal green
-theme[color3]="#6495ed"          # normal yellow
-theme[color4]="#3b83bd"          # normal blue
-theme[color5]="#0047ab"          # normal magenta
-theme[color6]="#151719"          # normal cyan
-theme[color7]="#030303"          # normal white
-theme[color8]="#afdafc"          # bright black
-theme[color9]="#1560bd"          # bright red
-theme[color10]="#0a64f5"         # bright green
-theme[color11]="#6495ed"         # bright yellow
-theme[color12]="#0a64f5"         # bright blue
-theme[color13]="#0047ab"         # bright magenta
-theme[color14]="#151719"         # bright cyan
-theme[color15]="#f8f8ff"         # bright white
+# ANSI colors 0-15
+theme[color0]="#f1f5f9"
+theme[color1]="#e11d48"
+theme[color2]="#059669"
+theme[color3]="#d97706"
+theme[color4]="#0a64f5"
+theme[color5]="#7c3aed"
+theme[color6]="#0284c7"
+theme[color7]="#1e293b"
+theme[color8]="#94a3b8"
+theme[color9]="#f43f5e"
+theme[color10]="#10b981"
+theme[color11]="#f59e0b"
+theme[color12]="#2563eb"
+theme[color13]="#8b5cf6"
+theme[color14]="#06b6d4"
+theme[color15]="#0f172a"

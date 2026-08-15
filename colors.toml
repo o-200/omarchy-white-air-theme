@@ -1,35 +1,63 @@
-# Accent and UI colors
-accent = "#0a64f5"                 # base04/base09
-active_border_color = "#3b83bd"    # base0D
-active_tab_background = "#77dde7"  # base02
+# Mode & Type
+mode = "light"
+theme_type = "light"
 
-# Cursor colors
-cursor = "#151719"                 # base0C
+# Accent & Borders
+accent = "#0a64f5"
+active_border_color = "#0a64f5"
+active_tab_background = "#e2e8f0"
+hyprland_active_border = "#0a64f5 #3b83bd 45deg"
+hyprland_inactive_border = "rgba(5983bd33)"
 
-# Primary colors
-foreground = "#3b83bd"             # base05
-background = "#ffffff"             # base00
+# Base Colors
+background = "#ffffff"
+foreground = "#1e293b"
+dark_background = "#f1f5f9"
+darker_background = "#e2e8f0"
+lighter_background = "#ffffff"
+dark_foreground = "#64748b"
+light_foreground = "#334155"
+bright_foreground = "#0f172a"
 
-# Selection colors
-selection_foreground = "#030303"   # base06
-selection_background = "#77dde7"   # base02
+# Cursor & Selection
+cursor = "#0a64f5"
+selection = "#cbd5e1"
+selection_background = "#cbd5e1"
+selection_foreground = "#0f172a"
+
+# Semantic Map
+red = "#e11d48"
+bright_red = "#f43f5e"
+green = "#059669"
+bright_green = "#10b981"
+yellow = "#d97706"
+bright_yellow = "#f59e0b"
+blue = "#0a64f5"
+bright_blue = "#2563eb"
+magenta = "#7c3aed"
+bright_magenta = "#8b5cf6"
+cyan = "#0284c7"
+bright_cyan = "#06b6d4"
+orange = "#ea580c"
+purple = "#7c3aed"
+muted = "#94a3b8"
 
 # Normal colors (ANSI 0-7)
-color0 = "#afdafc"   # base03
-color1 = "#1560bd"   # base08
-color2 = "#0a64f5"   # base0B
-color3 = "#6495ed"   # base0A
-color4 = "#3b83bd"   # base0D
-color5 = "#0047ab"   # base0E
-color6 = "#151719"   # base0C
-color7 = "#030303"   # base06
+color0 = "#f1f5f9"
+color1 = "#e11d48"
+color2 = "#059669"
+color3 = "#d97706"
+color4 = "#0a64f5"
+color5 = "#7c3aed"
+color6 = "#0284c7"
+color7 = "#1e293b"
 
 # Bright colors (ANSI 8-15)
-color8  = "#afdafc"  # base03
-color9  = "#1560bd"  # base08
-color10 = "#0a64f5"  # base0B
-color11 = "#6495ed"  # base0A
-color12 = "#0a64f5"  # base09
-color13 = "#0047ab"  # base0E
-color14 = "#151719"  # base0C
-color15 = "#f8f8ff"  # base07
+color8  = "#94a3b8"
+color9  = "#f43f5e"
+color10 = "#10b981"
+color11 = "#f59e0b"
+color12 = "#2563eb"
+color13 = "#8b5cf6"
+color14 = "#06b6d4"
+color15 = "#0f172a"
