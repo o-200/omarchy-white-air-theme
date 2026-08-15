@@ -1,0 +1,37 @@
+# Omarchy Shell configuration for White Air theme
+
+[bar]
+background       = "#ffffff"
+background-alpha = 0.85
+text             = "#1e293b"
+active           = "#0a64f5"
+scale-with-font  = true
+size-horizontal  = 30
+size-vertical    = 32
+
+[hyprland]
+active-border            = "rgba(0a64f5ee) rgba(3b83bdcc) 45deg"
+active-border-foreground = "rgb(0a64f5)"
+
+[controls]
+normal-color        = "#64748b"
+normal-fill-alpha   = 0.05
+normal-border       = "#cbd5e1"
+normal-border-width = 0
+normal-border-alpha = 0.0
+
+hover-cursor-color        = "#0a64f5"
+hover-cursor-fill-alpha   = 0.10
+hover-cursor-border       = "#3b83bd"
+hover-cursor-border-width = 0
+hover-cursor-border-alpha = 0.0
+
+focus-color        = "#0f172a"
+focus-fill-alpha   = 0.13
+focus-border       = "#0a64f5"
+focus-border-width = 1
+focus-border-alpha = 0.72
+
+selected-color        = "#0f172a"
+selected-fill-alpha   = 0.18
+selected-border       = "#0a64f5"

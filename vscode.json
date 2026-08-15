@@ -1,0 +1,14 @@
+{
+  "name": "White Air",
+  "type": "light",
+  "colors": {
+    "editor.background": "#ffffff",
+    "editor.foreground": "#1e293b",
+    "activityBar.background": "#f8fafc",
+    "activityBar.foreground": "#0a64f5",
+    "sideBar.background": "#f8fafc",
+    "sideBar.foreground": "#1e293b",
+    "statusBar.background": "#ffffff",
+    "statusBar.foreground": "#1e293b"
+  }
+}

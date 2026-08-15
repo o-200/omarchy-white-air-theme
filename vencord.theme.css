@@ -1,0 +1,44 @@
+/**
+ * @name White Air Discord
+ * @author Omarchy
+ * @version 1.0.0
+ * @description White Air theme for Vencord / Discord
+ **/
+
+:root {
+  --color00: #ffffff;
+  --color01: #e11d48;
+  --color02: #059669;
+  --color03: #d97706;
+  --color04: #0a64f5;
+  --color05: #7c3aed;
+  --color06: #0284c7;
+  --color07: #1e293b;
+  --color08: #94a3b8;
+  --color09: #f43f5e;
+  --color10: #10b981;
+  --color11: #f59e0b;
+  --color12: #2563eb;
+  --color13: #8b5cf6;
+  --color14: #06b6d4;
+  --color15: #0f172a;
+
+  --background-primary: #ffffff;
+  --background-secondary: #f8fafc;
+  --background-secondary-alt: #f1f5f9;
+  --background-tertiary: #e2e8f0;
+  --background-floating: #ffffff;
+
+  --text-normal: #1e293b;
+  --text-muted: #64748b;
+  --text-link: #0a64f5;
+
+  --header-primary: #0f172a;
+  --header-secondary: #334155;
+
+  --brand-experiment: #0a64f5;
+  --interactive-normal: #475569;
+  --interactive-hover: #1e293b;
+  --interactive-active: #0a64f5;
+  --interactive-muted: #94a3b8;
+}
